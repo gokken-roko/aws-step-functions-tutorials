@@ -5,6 +5,8 @@ module.exports = {
   roots: ["<rootDir>/test", "<rootDir>lambda"],
   testMatch: ["**/*.test.ts"],
   transform: {
-    "^.+\\.tsx?$": "ts-jest",
+    //"^.+\\.tsx?$": "ts-jest",
+    // https://github.com/swc-project/jest
+    "^.+\\.(t|j)sx?$": "@swc/jest",
   },
 };
