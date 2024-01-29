@@ -5,7 +5,7 @@ import { Stack, type StackProps } from "aws-cdk-lib";
 export class AwsStepFunctionsTutorialsStack extends Stack {
   constructor(scope: Construct, id: string, props?: StackProps) {
     super(scope, id, props);
-    console.log("TODO: Implement stack");
+    console.log("TODO: Implement AwsStepFunctionsTutorialsStack");
 
     // The code that defines your stack goes here
 
