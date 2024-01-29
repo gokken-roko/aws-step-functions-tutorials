@@ -2,7 +2,7 @@
 // https://jestjs.io/ja/docs/ecmascript-modules
 module.exports = {
   testEnvironment: "node",
-  roots: ["<rootDir>/test"],
+  roots: ["<rootDir>/test", "<rootDir>lambda"],
   testMatch: ["**/*.test.ts"],
   transform: {
     "^.+\\.tsx?$": "ts-jest",
