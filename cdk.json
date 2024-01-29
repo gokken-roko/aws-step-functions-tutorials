@@ -1,5 +1,5 @@
 {
-  "app": "npx tsx bin/aws-step-functions-tutorials.ts",
+  "app": "yarn tsx bin/aws-step-functions-tutorials.ts",
   "watch": {
     "include": ["**"],
     "exclude": [
