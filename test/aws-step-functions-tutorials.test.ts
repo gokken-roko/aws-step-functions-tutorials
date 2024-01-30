@@ -1,3 +1,4 @@
+import { test } from "vitest";
 // import * as cdk from 'aws-cdk-lib';
 // import { Template } from 'aws-cdk-lib/assertions';
 // import * as AwsStepFunctionsTutorials from '../lib/aws-step-functions-tutorials-stack';
