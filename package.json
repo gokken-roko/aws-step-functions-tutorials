@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
+    "type-check": "tsc --noEmit --skipLibCheck",
     "test": "vitest",
     "lint": "eslint --config eslint.config.js .",
     "format": "prettier . --write",
